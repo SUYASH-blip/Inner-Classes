@@ -1,0 +1,4 @@
+Anonymous classes are without name .
+
+in the example we saw without writing the whole Credit class as implementation
+we are able to write it during method call so this are called "Anonymous classes"
