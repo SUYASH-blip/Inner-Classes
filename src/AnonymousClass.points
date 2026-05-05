@@ -1,4 +1,12 @@
-Anonymous classes are without name .
+1.Anonymous classes are without name .
 
-in the example we saw without writing the whole Credit class as implementation
-we are able to write it during method call so this are called "Anonymous classes"
+2.in the example we saw without writing the whole Credit class as implementation
+we are able to write it during method call so this are called "Anonymous classes".
+
+3.Use cases:-
+
+   3.a When we have to implement an interface without creating
+       its implementation class or extending a class without writing
+       a separate sub-class of it then we use anonymous inner classes.
+
+   3.b When we have to create an object for one time use only then we use it.
