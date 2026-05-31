@@ -1,6 +1,6 @@
-public class WithoutCreditCardTest {
+public class Anonymous_WithoutCreditCardTest {
     public static void main(String[] args) {
-        ShoppingCart shoppingCart = new ShoppingCart(990);
+        Anonymous_ShoppingCart shoppingCart = new Anonymous_ShoppingCart(990);
         shoppingCart.Process_Payment(new Payment() {
             @Override
             public void pay(double Amount) {

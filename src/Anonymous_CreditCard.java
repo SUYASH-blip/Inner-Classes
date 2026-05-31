@@ -1,4 +1,4 @@
-public class CreditCard implements Payment {
+public class Anonymous_CreditCard implements Payment {
     private  int creditCardNumber;
     public int Amount;
     @Override
@@ -6,7 +6,7 @@ public class CreditCard implements Payment {
         System.out.println("Paid" + " "+Amount+" "+"using Credit Card");
 
   }
-  public CreditCard(int creditCardNumber) {
+  public Anonymous_CreditCard(int creditCardNumber) {
       this.creditCardNumber = creditCardNumber;
   }
 }

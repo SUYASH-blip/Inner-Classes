@@ -1,4 +1,4 @@
-import javax.xml.validation.Validator;
+
 
 public class LocalInner_Hotel {
     private String name;

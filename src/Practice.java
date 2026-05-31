@@ -11,7 +11,9 @@
         static class Department {
 
             void display() {
-
+                //Accessing non-static member using object of the outer class
+                University us = new University();
+                System.out.println("Number Of Students:"+" "+ us.students);
                 // Can directly access static members of outer class
                 System.out.println("University Name: " + universityName);
 
